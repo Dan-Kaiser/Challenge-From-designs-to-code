@@ -1,0 +1,93 @@
+.navBar {
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	background-color: lightgray;
+	text-align: right;
+}
+
+nav .home{
+	position: absolute;
+	left : 10px;
+}
+
+
+li a {
+    text-align: center;
+    padding:10px;
+    text-decoration: none;
+}
+
+nav li{
+	display: inline-block;
+}
+
+
+main{
+	padding-top: 80px;
+	padding-left: 80px;
+}
+
+label{
+	font-size: smaller;
+}
+
+.search_field > input {
+	height: 22px;
+}
+.search-icon {
+	position: absolute;
+	margin-left: 3px;
+	width: 22px;
+}
+
+
+input{
+	display: inline-block;
+	border-radius: 5px;
+	border: lightgray solid 1px;
+	width: 300px;
+}
+
+
+
+form.prev_next input.amount {
+	width: 150px;
+	margin-bottom: 30px;
+}
+
+form.prev_next {
+	font-size: 0;
+	
+}
+
+form.prev_next input {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 14px;
+	margin-top: 30px; 
+	width: 60px;
+	border-radius: 2px;
+	text-align: center;
+	background-color: white;
+ }
+
+
+main > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 8px;
+}
+
+main > ul > li {
+	display: inline;
+	color: gray;
+}
+
+main > ul > li > a {
+	color: blue;
+	font-weight: bold;
+}
+
+
